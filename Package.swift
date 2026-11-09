@@ -20,8 +20,8 @@ let package = Package(
     ],
     dependencies: [
         // Mark: Dependencies Begin
-        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0"),
-        .package(url: "https://github.com/AddApptr/AATKit-GraviteRTB.git", exact: "3.18.0"),
+        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.19.0-beta1"),
+        .package(url: "https://github.com/AddApptr/AATKit-GraviteRTB.git", exact: "3.19.0-beta1"),
         // Mark: Dependencies End
     ],
     // Mark: Targets
@@ -40,13 +40,13 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "AATMetaBiddingAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/AATMetaBiddingAdapter.zip",
-            checksum: "5ef77763a373540ea2f7a407e08019e58cb479f96aee757f9a28804acb9fb4d3"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/AATMetaBiddingAdapter.zip",
+            checksum: "80c59ff32166bda68110c84f83bc49ce92f82196a2d79c7e87d8316b60c27a8f"
         ),
         .binaryTarget(
             name: "AATFBAudienceNetwork",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/FBAudienceNetwork.zip",
-            checksum: "800347ace9893f0c310bb47f6e1ce80a8a09b9f7d73b0fc9c0f452a4b411dc8a"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/FBAudienceNetwork.zip",
+            checksum: "6336d90de8798ab0eecabd28875ddea665120b4547d621bc57707a6529aca0af"
         ),
     ]
 )
